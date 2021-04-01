@@ -20,7 +20,7 @@ router.get('/', (req, res) => {
       ]
   }).then((productData) => {
       res.status(200).json(productData);
-  }).catch(err => {
+  }).catch((err) => {
       res.status(500).json(err);
   });
 });
@@ -49,7 +49,7 @@ router.get('/:id', (req, res) => {
 			return;
 		}
 		res.status(200).json(productData);
-    }).catch(err => {
+    }).catch((err) => {
         res.status(500).json(err);
     });
 });
@@ -142,7 +142,7 @@ router.delete('/:id', (req, res) => {
 	  }
 	  res.status(200).json(deletedProduct);
   })
-  .catch(err => {
+  .catch((err) => {
 	  res.status(500).json(err);
   })
 });

@@ -7,8 +7,8 @@
 
 The purpose of this project is to build the back end for an e-commerce site. With this project, a user can can perform CRUD operations for the Product, Tag, and Category Tables in the database. This project features the use of [Express.js](https://expressjs.com/) for server side functions and [Sequelize](https://sequelize.org/) to interact with the [MySQL](https://www.mysql.com/) database.
 
-[Video Walkthrough Part 1](https://drive.google.com/file/d/1fxwr5rhaKRIGdhfsRsO_IsErI7L9vdnZ/view)
-[Video Walkthrough Part 2](https://drive.google.com/file/d/13KfSghqan3pknrAqVgZ77lPTgr3uDYZP/view)
+- [Video Walkthrough Part 1](https://drive.google.com/file/d/1fxwr5rhaKRIGdhfsRsO_IsErI7L9vdnZ/view)
+- [Video Walkthrough Part 2](https://drive.google.com/file/d/13KfSghqan3pknrAqVgZ77lPTgr3uDYZP/view)
 
 ## Table of Contents
 
@@ -49,7 +49,7 @@ Once that is complete then the user can start the server by running `node server
 
 ## Usage
 
-The usage of this project is to be able to perform CRUD operations through API routes such as GET, POST, PUT, and DELETE, instead of directly inputting queries in MySQL Workbench.
+The usage of this project is to be able to perform CRUD operations through API routes such as `GET`, `POST`, `PUT`, and `DELETE`, instead of directly inputting queries in MySQL Workbench.
 
 ## Contributors
 
@@ -57,19 +57,19 @@ The usage of this project is to be able to perform CRUD operations through API r
 
 ## Tests
 
-Once the user has successfully installed the project, the user can test the API Endpoints through [Insomnia Core](https://insomnia.rest/). From here, the user can test the GET routes that return all data from either the Product, Tag, or Category Table, of they can test the GET route that returns a single row based on id.
+Once the user has successfully installed the project, the user can test the API Endpoints through [Insomnia Core](https://insomnia.rest/). From here, the user can test the `GET` routes that return all data from either the Product, Tag, or Category Table, of they can test the `GET` route that returns a single row based on id.
 
 ![GET Test Screenshot](./public/assets/images/getTestScreenshot.png)
 
-The user can also test the POST routes, which is used to create new data in either the Product, Tag, or Category Table.
+The user can also test the `POST` routes, which is used to create new data in either the Product, Tag, or Category Table.
 
 ![POST Test Screenshot](./public/assets/images/postTestScreenshot.png)
 
-The user can also thes the PUT routes, which is used to update existing information in the Product, Tag, or Category Table.
+The user can also thes the `PUT` routes, which is used to update existing information in the Product, Tag, or Category Table.
 
 ![PUT Test Screenshot](./public/assets/images/putTestScreenshot.png)
 
-Lastly, the user can test the DELETE routes, which is used to delete existing information from the Product, Tag, or Category Table.
+Lastly, the user can test the `DELETE` routes, which is used to delete existing information from the Product, Tag, or Category Table.
 
 ![DELETE Test Screenshot](./public/assets/images/deleteTestScreenshot.png)
 
